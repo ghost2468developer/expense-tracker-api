@@ -5,7 +5,7 @@ import {
   getCategories,
   updateCategory,
   deleteCategory
-} from '../controllers/categories.controller.js'
+} from '../controllers/categories-controller.js'
 
 const router = Router()
 router.use(authenticate)
