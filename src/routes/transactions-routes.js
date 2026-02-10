@@ -6,7 +6,7 @@ import {
   updateTransaction,
   deleteTransaction,
   getReport
-} from '../controllers/transactions.controller.js'
+} from '../controllers/transaction-controller.js'
 
 const router = Router()
 router.use(authenticate)
