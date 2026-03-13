@@ -1,7 +1,6 @@
 {
-    "env":{
-        "MONGO_ATLAS_DB":"mongodb+srv://adebayoileri:ay2mLMqkNZgbwGP@trackman-kt05w.mongodb.net/test?retryWrites=true&w=majority",
-        "JWT_KEY":"secret",
-        "PORT": 4300
-    }
+  "watch": ["src"],
+  "ext": "js,json",
+  "ignore": ["node_modules"],
+  "exec": "node src/index.js"
 }
